@@ -13,5 +13,8 @@ $(".input").keypress(function(){
 for (var i=0; i<=1000; i++){
 	$('body').append("<div>")
 	$('div').addClass("square")
-
 }
+
+$("body").click(function(event){
+    $(event.target).css("background", "green")
+});
