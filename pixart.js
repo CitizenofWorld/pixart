@@ -15,7 +15,12 @@ for (var i=0; i<=1000; i++){
 	$('div').addClass("square")
 }
 
-$("body").click(function(event){
+// $("body").click(function(event){
+// 		var $inputVal = $("#color-field").val();
+//     $(event.target).css("background", $inputVal)
+// });
+
+$("body").mouseover(function(){
 		var $inputVal = $("#color-field").val();
     $(event.target).css("background", $inputVal)
-});
+})
