@@ -25,3 +25,8 @@ h1 {
 body {
   background-image: url('ps_neutral.png');
 }
+
+.thousand-boxes {
+      width: 60%;
+    margin: 100px;
+}

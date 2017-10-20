@@ -11,10 +11,11 @@ $(".input").keypress(function(){
 });
 
 for (var i=0; i<=1000; i++){
-	$('body').append("<div>")
+	$('.thousand-boxes').append("<div>")
 	$('div').addClass("square")
 }
 
 $("body").click(function(event){
-    $(event.target).css("background", "green")
+		var $inputVal = $("#color-field").val();
+    $(event.target).css("background", $inputVal)
 });
